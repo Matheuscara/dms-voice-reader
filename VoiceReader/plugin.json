@@ -1,0 +1,15 @@
+{
+  "id": "voiceReader",
+  "name": "Voice Reader",
+  "description": "Voice reader (Kokoro) in the bar: loading, speaking and progress, with a caption that highlights the spoken word. Click reads the selection or stops.",
+  "version": "1.1.0",
+  "author": "Matheuscara",
+  "license": "MIT",
+  "type": "widget",
+  "capabilities": ["dankbar-widget"],
+  "component": "./VoiceReader.qml",
+  "settings": "./VoiceReaderSettings.qml",
+  "icon": "record_voice_over",
+  "permissions": ["settings_read", "settings_write"],
+  "requires_dms": ">=1.4.6"
+}
